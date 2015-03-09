@@ -1,0 +1,4 @@
+com/eye/see/image/processing/TestFuzzyCMeansProcessor.class
+com/eye/see/image/processing/TestGlobalColorHistogramProcessor.class
+com/eye/see/image/processing/TestLocalColorHistogramProcessor.class
+com/eye/see/image/processing/TestHistorgramEuclideanDistance.class

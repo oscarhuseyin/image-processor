@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.eye.see.image.processing.TestLocalColorHistogramProcessor
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+testLocalColorHistogram(com.eye.see.image.processing.TestLocalColorHistogramProcessor)  Time elapsed: 0 sec  <<< ERROR!
+com.eye.see.image.utils.ImageProcessingException
+	at com.eye.see.image.processing.ImageProcessor.loadImage(ImageProcessor.java:28)
+	at com.eye.see.image.processing.FuzzyCMeansClusteringImageProcessor.segmentImage(FuzzyCMeansClusteringImageProcessor.java:45)
+	at com.eye.see.image.processing.LocalNeighbourhoodHistogramProcessor.calculateLocalHNeighbourhoodHistogram(LocalNeighbourhoodHistogramProcessor.java:31)
+	at com.eye.see.image.processing.TestLocalColorHistogramProcessor.testLocalColorHistogram(TestLocalColorHistogramProcessor.java:14)
+

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.eye.see.image.processing.TestFuzzyCMeansProcessor
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.373 sec <<< FAILURE!
+testFuzzyCMeansClustering(com.eye.see.image.processing.TestFuzzyCMeansProcessor)  Time elapsed: 0.37 sec  <<< ERROR!
+com.eye.see.image.utils.ImageProcessingException
+	at com.eye.see.image.processing.ImageProcessor.loadImage(ImageProcessor.java:28)
+	at com.eye.see.image.processing.FuzzyCMeansClusteringImageProcessor.segmentImage(FuzzyCMeansClusteringImageProcessor.java:45)
+	at com.eye.see.image.processing.TestFuzzyCMeansProcessor.testFuzzyCMeansClustering(TestFuzzyCMeansProcessor.java:13)
+

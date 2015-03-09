@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.eye.see.image.processing.TestGlobalColorHistogramProcessor
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+testColorHistogram(com.eye.see.image.processing.TestGlobalColorHistogramProcessor)  Time elapsed: 0 sec  <<< ERROR!
+com.eye.see.image.utils.ImageProcessingException
+	at com.eye.see.image.processing.ImageProcessor.loadImage(ImageProcessor.java:28)
+	at com.eye.see.image.processing.GlobalColorHistogramProcessor.calculateGlobalColorHistogram(GlobalColorHistogramProcessor.java:27)
+	at com.eye.see.image.processing.TestGlobalColorHistogramProcessor.testColorHistogram(TestGlobalColorHistogramProcessor.java:13)
+
